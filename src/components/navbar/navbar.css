@@ -1,0 +1,32 @@
+.navbar {
+  background-color: rgb(255, 132, 0);
+  padding: 1.5% 3%;
+}
+.navbar-brand {
+  color: white !important;
+  font-size: 2rem;
+}
+.navbar-collapse {
+  width: 100%;
+}
+.options {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-control {
+  width: 40vw;
+  padding: 2%;
+  margin-left: 5%;
+}
+.form-control::placeholder {
+  content: "search for products";
+  font-size: 1rem;
+}
+.login-options {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.1rem;
+}
